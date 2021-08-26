@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    min-height: 160vh;
+    padding: 40px 50px;
+}
+
+#hero nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "gilroy";
+}
+
+#hero nav h2 {
+    opacity: 1;
+}
+
+#hero nav h2 span {
+    font-weight: 500;
+    opacity: .5;
+}
+
+#hero nav h5 {
+    opacity: .6;
+}
+
+#hero #links {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero #links #links1 {
+    display: flex;
+    margin-left: 60px;
+}
+
+#hero nav #links a {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#hero #links2 {
+    display: flex;
+    align-items: center;
+}
+
+#hero #links2 a:nth-last-child(1) {
+    margin-right: 0;
+}
+
+#hero nav #links i {
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#hero #heading {
+    font-family: 'playfair_display';
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+}
+
+#hero #heading h1 {
+    margin: -60px;
+    font-weight: 200;
+    font-size: 280px;
+}
+
+#hero #heading span {
+    font-size: 25px;
+    margin-left: -40px;
+}
+
+
+#hero #heading #scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .6;
+    font-family: "steinbeck";
+    margin-bottom: 25px;
+}
+
+#hero #heading #scroll #btn {
+    position: relative;
+    width: 22px;
+    height: 33px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(202, 201, 201);
+    border: 2px solid black;
+}
+
+#hero #heading #scroll #btn2 {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 5px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+#hero #heading #scroll h4 {
+    font-size: 14px;
+}
+
+#hero #heading>h4 {
+    font-size: 14px;
+    font-family: "gilroy";
+    position: absolute;
+    top: 68%;
+}
+
+#hero #heading img {
+    width: 800px;
+    position: absolute;
+    top:187%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#hero #leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 0%;
+    width: 10%;
+    height: 80vh;
+    color: black;
+    font-family: "gilroy";
+}
+
+#leftside h5 {
+    font-size: 8px;
+    margin-top: 100px;
+    opacity: .5;
+    transform: rotate(270deg);
+}
+
+#leftside h5:nth-child(2) {
+    margin-top: 80px;
+}
+
+
+
+#hero>h5 {
+    font-family: "gilroy";
+    letter-spacing: 3px;
+    opacity: .6;
+    font-size: 10px;
+}
+
+#hero #line {
+    width: 18.5%;
+    height: 2px;
+    margin-top: 2px;
+    opacity: .6;
+    background-color: rgb(129, 126, 126);
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+}
